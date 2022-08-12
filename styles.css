@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.sub-box{
+    border:1px solid black;
+}
