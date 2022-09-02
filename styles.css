@@ -1,16 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
 .container{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    flex-basis: 6cm;
 }
+
 
 .box{
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    flex-basis: 2cm;
 }
 
 .sub-box{
-    border:1px solid black;
+    display: flex;
+    border: 1px solid black;
+    gap: 10px;
+    flex-basis: 2cm;
+
 }
+
